@@ -1,6 +1,7 @@
 # nginx-config-file
 NGINX config file with 404 and 500 error pages.
 
+```
 #myserver block
 server {
 	location / {
@@ -22,3 +23,5 @@ server {
 
 	}
 }
+
+```
