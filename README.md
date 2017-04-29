@@ -5,7 +5,8 @@ NGINX config file with 404 and 500 error pages.
 #myserver block
 server {
 	location / {
-	server_name gotapp.com ww.gotapp.com *.gotapp.com;
+	listen       80;
+	server_name gotapp.com www.gotapp.com *.gotapp.com;
 	root /home/vithalreddy/projects/got-app;
 	}
 	
